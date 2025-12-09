@@ -64,7 +64,7 @@ Este repositório será atualizado conforme avanço nos estudos e projetos. Ele 
 
 Caso queira trocar conhecimento ou acompanhar minha evolução:
 
-* **LinkedIn:** *(adicionar link quando desejar)*
+* **LinkedIn:** *[LinkedIn Edson Santos](https://www.linkedin.com/in/edson-santos-a92683105)*
 
 ---
 
