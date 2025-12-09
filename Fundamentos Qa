@@ -1,0 +1,121 @@
+# Fundamentos de QA (Quality Assurance)
+
+Este documento reúne os conceitos essenciais aprendidos na fase inicial de estudo em QA, organizados de forma clara e profissional para uso em portfólio, estudo e consultas futuras.
+
+---
+
+## 1. Plano de Teste (Test Plan)
+
+O Plano de Teste é o documento que comunica **a estratégia, o escopo, a intenção e o esforço** envolvidos na execução de testes. Ele garante alinhamento entre QA, desenvolvimento e negócio.
+
+### Componentes essenciais do Plano de Teste
+
+* **Aceitação:** critérios que definem quando a funcionalidade está pronta para produção.
+* **Prazos:** datas de início, fim e marcos importantes do ciclo de testes.
+* **Testes Feitos:** relação dos testes planejados, executados e seus respectivos status.
+
+### Modelos estruturados
+
+Ferramentas e formatos que ajudam na documentação:
+
+* Fluxograma
+* Tabela de decisão
+* Matriz de cobertura
+
+---
+
+## 2. Preparação para Testar
+
+Antes de iniciar os testes, o QA deve garantir:
+
+* **Tudo que é necessário para testar:** acessos, massa de dados, ambiente, documentação.
+* **Análise detalhada dos critérios de aceite:** entendimento total das regras de negócio.
+* **Identificação dos cenários de teste:** cada condição diferente apresentada pelo requisito deve gerar um cenário.
+
+---
+
+## 3. Documentação Correta: Casos de Teste
+
+A documentação clara e objetiva permite a replicação dos testes por qualquer membro da equipe.
+
+### Estrutura de um Caso de Teste
+
+* **Nome exclusivo:** identificação única (Ex.: CT-001 – Validar login com credenciais válidas).
+* **Pré-condições:** requisitos mínimos para execução (ex.: usuário cadastrado).
+* **Procedimentos:** passo a passo detalhado da execução.
+* **Resultado esperado:** comportamento correto do sistema.
+* **Dados de Entrada:** informações que serão usadas no teste.
+* **Critérios especiais:** condições específicas, se existirem.
+* **Ambiente:** local onde o teste será realizado (dev, homologação, stage).
+* **Implementação:** manual ou automatizada.
+* **Interações:** número de repetições necessárias.
+
+---
+
+## 4. BDD (Behavior Driven Development)
+
+O BDD facilita a comunicação entre QA, dev e PO utilizando linguagem natural.
+
+### Estrutura
+
+* **Dado** (Given): estado inicial
+* **Quando** (When): ação que será executada
+* **Então** (Then): comportamento esperado
+
+### Exemplo
+
+```
+Dado que o usuário está na página de login
+Quando inserir credenciais válidas
+Então deve acessar o painel do sistema
+```
+
+---
+
+## 5. Qualidade além dos Testes
+
+QA não é apenas encontrar bugs — é melhorar o produto de forma contínua.
+
+As responsabilidades incluem:
+
+* Testes manuais e automatizados
+* Debug e análise de logs
+* Gestão e documentação de erros
+* Suporte ao time em pair programming
+* Prevenção de bugs
+
+---
+
+## 6. QA em Metodologias Ágeis
+
+No Agile, o QA participa desde o planejamento, influenciando o entendimento dos requisitos e prevenindo problemas.
+
+### Princípios importantes
+
+* Testes durante o desenvolvimento
+* Prevenção de bugs
+* Testar entendimento, não apenas funcionalidade
+* Qualidade é responsabilidade de todos
+
+---
+
+## 7. Modelos de Desenvolvimento
+
+### Modelo Cascata (Waterfall)
+
+* Fases lineares
+* Mudanças são lentas
+* QA testa apenas no final
+
+### Modelo Ágil
+
+* Entregas incrementais (sprints)
+* Feedback rápido
+* Testes contínuos
+* QA integrado desde o início
+
+---
+
+## Finalização
+
+Este documento representa a base teórica inicial da carreira em QA e pode evoluir conforme o aprendizado avança, integrando novos conceitos, ferramentas e práticas de mercado.
