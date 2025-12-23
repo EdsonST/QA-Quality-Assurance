@@ -28,7 +28,7 @@ Documentação inicial com os princípios essenciais da área, incluindo:
 * BDD
 * Papel do QA em metodologias ágeis
 
-### ✔️ **2. Casos de Teste** *(em breve)*
+### ✔️ **2. Casos de Teste**
 
 Casos de teste escritos seguindo padrões profissionais.
 
